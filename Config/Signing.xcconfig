@@ -1,0 +1,6 @@
+// Code signing settings shared by both targets.
+// Put your Apple Developer team ID in Config/Local.xcconfig (gitignored), e.g.:
+//   DEVELOPMENT_TEAM = ABCDE12345
+// See Config/Local.xcconfig.example.
+DEVELOPMENT_TEAM =
+#include? "Local.xcconfig"
